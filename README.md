@@ -22,7 +22,7 @@
 ♦️ 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 ♦️
 </p>
 <p align="center">
-<a href="https://youtu.be/Af055Eozk9s">/start</a> - <b>Start</b>
+<a href="https://youtube.com/channel/UCub3dicfx4_yFrZKSAqHCxA">/start</a> - <b>Start</b>
 </p>
 
 <p align="center">
