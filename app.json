@@ -1,0 +1,52 @@
+{
+    "name": "Auto-Approved-Bot",
+    "description": "Iam Auto-Approved-Bot @harshil8981",
+    "keywords": [
+        "Auto",
+        "Approved",
+        "Group",
+        "Invite",
+        "Link",
+        "Bot"
+    ],
+    "website": "https://youtube.com/channel/UCub3dicfx4_yFrZKSAqHCxA",
+    "repository": "https://github.com/harshil8981/Auto-Approved-HP-Bot",
+    "success_url": "https://youtube.com/channel/UCub3dicfx4_yFrZKSAqHCxA",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From https://my.telegram.org or @Mytele_ORGbot",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From https://my.telegram.org or @Mytele_ORGbot",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "CHAT_ID": {
+            "description": "Working Group ID @GroupHelp_8981_bot",
+            "value": ""
+        },
+        "APPROVED_WELCOME": {
+            "description": "APPROVED_WELCOME On Or Off",
+            "value": "on"
+        },
+        "APPROVED_WELCOME_TEXT": {
+            "description": "APPROVED_WELCOME_TEXT : Welcome Text",
+            "value": "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
