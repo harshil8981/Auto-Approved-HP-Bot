@@ -14,7 +14,7 @@ TEXT=os.environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title
 APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 
 @harshil8981.on_message(filters.private & filters.command(["start"]))
-async def start(client: pr0fess0r_99, message: Message):
+async def start(client: harshil8981, message: Message):
     approvedbot = await client.get_me() 
     button=[[
       InlineKeyboardButton("📦 Repo", url="https://github.com/harshil8981/Auto-Approved-HP-Bot"),
